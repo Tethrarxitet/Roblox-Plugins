@@ -1,0 +1,5 @@
+{
+  "CrayolaColors",
+  "LegoBrickColors",
+  "BlocklandBrickColors"
+}
