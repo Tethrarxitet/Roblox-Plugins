@@ -1,7 +1,7 @@
 # Community Color Palettes
 This is the online source for Community Color Palettes!
 
-To make a palette, create a fork of this repo and label it ColorPaletteRequest, and make a copy of `TemplatePalette.luau`. Fill in the important stuff, and add your colors. Colors can be listed in 2 ways:
+To make a palette, create a fork of this repo and label it ColorPaletteRequest, and make a copy of `_TemplatePalette.luau`. Fill in the important stuff, and add your colors. Colors can be listed in 2 ways:
 ```luau
 {
    {R: number, G: number, B: number},             -- Option 1: only the color
