@@ -8,6 +8,6 @@ return {
   Author = "Tethrarxitet",
   Icon = "rbxassetid://101148796859198",
   Colors = {
-    
+     
   }
 }
