@@ -1,19 +1,21 @@
 # Community Color Palettes
 This is the online source for Community Color Palettes!
 
-To make a palette, create a fork of this repo and label it ColorPaletteRequest, and make a copy of `_TemplatePalette.luau`. Fill in the important stuff, and add your colors. Colors can be listed in 2 ways:
+To make a palette, create a fork of this repo and label it ColorPaletteRequest, and make a copy of `_TemplatePalette.luau`. Fill in the important stuff, and add your colors. Colors can be listed in a few ways:
 ```luau
 {
-   {R: number, G: number, B: number},             -- Option 1: only the color
+   {255, 127, 0},             -- Option 1: only the color. Stored as rgb table
+   Color3.new(255, 127, 0),   -- Stored as Color3 instance
+   "#ff7f00",                 -- Stored as hex color string
 
    {                                              -- Option 2: color with details
-      Color = {R: number, G: number, B: number},
+      Color = {255, 127, 0},                      -- You can also show this as the other ones shown before
       Name = "Color name",                        -- Shows up on mouse enter
       Description = "Color description"           -- Shows up after 2 secs of hovering
    }  
 }
 ```
-Any color with no name will default to the hex code of the color. Description is optional. More rules:
+`Color` can also be a `Color3` object or a hex color string. Any color with no name will default to the hex code of the color. Description is optional. More rules:
 * Your palette must have more than 16 colors.
 * The palette must have a title that references where you got the color palette from.
 
