@@ -4,6 +4,7 @@
 
 return {
 	Title = "Crayola Color Palette",
+	SmallDescription = "All standard Crayola crayon colors with an official website color representation.",
 	Description = "This color palette includes all standard Crayola crayon colors that have an official website representation on Crayola.com.\nThis color palette and the creator is not endorsed or associated with Crayola.",
 	Author = "Tethrarxitet",
 	Icon = "rbxassetid://101148796859198",
