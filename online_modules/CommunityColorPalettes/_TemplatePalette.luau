@@ -3,6 +3,7 @@
 
 return {
   Title = "Palette Name",
+	SmallDescription = "At most 18 words of standard length.",
   Description = "Give a brief, formal description on what these colors are based off of.",
   Author = "Your name here",
   Icon = "rbxassetid://126072996706060",
